@@ -1,0 +1,320 @@
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	margin:0;
+	padding:0;
+
+}
+body{
+font-family: Arial, "MS Trebuchet", sans-serif;
+}
+a{
+	text-decoration:none;
+}
+
+a:link {color:#888888;}    /* unvisited link */
+a:visited {color:#888888;} /* visited link */
+a:hover {color:#FF6633;}   /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+
+li{
+	list-style:none;
+}
+
+
+
+/*--font style--*/
+.italic{
+	font-style:italic;
+}
+
+.padding{
+	padding:20px;
+	
+}
+
+.padding-left{
+	padding-left:10px;
+}
+/*--header section--*/
+
+.section-title{
+	float: left;
+	width:950px;
+	margin-top:40px;	
+}
+
+.section-title h2{
+	font-size:78px;
+	color:#cccccc;
+	text-transform:lowercase;
+}
+
+.section-divider{
+		float: left;
+	width:950px;
+	border:4px solid #cccccc;
+	margin:10px 0 30px 0;
+	
+	
+}
+
+.left-col{
+	float:left;
+	width:475px;
+	border: 0px solid black;
+}
+
+.right-col{
+	float:right;
+	width:430px;
+	border: 0px solid black;
+	
+}
+
+
+.right-col h3{
+	
+	font-size:32px;
+	text-transform:uppercase;
+}
+
+
+
+
+
+#wrapper{
+	position:relative;
+	width:950px;
+	margin:0 auto;
+	padding:0;
+	top:0;
+	border-top:8px solid #FF6633
+}
+
+#header{
+	margin:0;
+	padding:0px;
+	float:left;	
+	width:950px;
+	border:0px solid #FF6633;
+}
+
+#logo{
+	float:left;
+	width:200px;	
+	border:0px solid black;
+	background:url('../imgs/newerageeks_200px.jpg') no-repeat;
+	text-indent:-9999px;
+	height:140px;
+	margin-top:30px;	
+	
+}
+
+#main-nav{
+	float:right;
+	clear:right;
+	text-transform: uppercase;
+	border:px solid red;
+	margin-top:40px;	
+	
+}
+
+#main-nav li{
+	display:inline;
+	margin-left:80px;
+	padding:0px;
+	font-size:26px;	
+	
+}
+
+
+#follow{
+	float:right;
+	
+	border:0px solid #FF6633;
+	width:270px;
+	height: 30px;	
+	background-color:#FF6633;
+	 border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    list-style-type: none;
+	
+}
+
+.follow-us{
+	float:left;
+	margin:4px 0 0 10px;
+	
+}
+.follow-us li{
+	display:inline;
+}
+
+.text{
+	color:white;
+	font-size:13px;
+	margin: 10px 80px 10px 0px;	
+	
+}
+
+
+/*----end of header------------*/
+
+#content{
+	
+	float:left;
+	border: 0px solid black;
+	
+}
+
+#footer{
+	float:left;
+	border: 0px solid black;
+	background-color:#FF6633;
+	width:930px;
+	padding:20px;
+	
+	
+}
+
+#slideGallery{
+	float:left;
+	border:0px solid black;
+	width:950px;
+	height:420px;	
+}
+
+#negUrl{
+	
+	float:left;
+	border:0px solid black;
+	width:950px;
+	height:110px;	
+	background-color: #FF6633;
+}
+
+#negUrl p{
+	margin:15px;
+	color:white;
+	text-align: center;
+}
+
+
+/*--blog template--*/
+
+.blog-container{
+	float:left;
+	border: 0px solid red;
+	width:475px;
+	background-color:#F0F0F0 ;
+	margin:0 0 30px;
+	border-radius: 10px;
+	
+}
+
+
+.image-holder{
+	float:left;
+	border: 0px solid red;
+	width:475px;
+	height:auto;
+	
+	background-color:#F0F0F0 ;
+}
+
+.image-holder img{
+	width:475px;
+	
+}
+
+.post-meta{
+	float:left;
+	border: 0px solid blue;
+	width:475px;
+	min-height:80px;
+	background-color:#F0F0F0;
+		padding:0px 0 0px 0px;
+
+	
+}
+
+.title-wrap {
+	float:left;
+	text-transform:uppercase;
+	display:block;
+	width:400px;
+	margin-top:0px;
+	padding:10px 0 0 10px;
+	color: #888888;
+}
+
+
+.date-wrap{
+	float:right;
+	width:40px;
+	text-align:center;
+	background-color: #FF6633;
+	color:white;
+	font-size:18px;
+	text-transform:uppercase;
+	font-style: bold;
+	margin: 10px 10px 0 10px;
+	
+}
+
+
+
+.content-wrap{
+	
+	float:left;
+	border: 0px solid blue;
+	width:450px;
+	min-height:80px;
+	padding:20px 10px 10px 10px;
+	color: 	#808080;
+}
+
+.recent-list{
+	padding: 20px 0 40px 10px;
+	text-transform:uppercase;
+
+	
+}
+
+.recent-list li{
+		margin:10px 0 10px 0;
+	
+}
+
+.feature_box{
+
+	border:0px solid black;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.feature_box img{
+	position:absolute;
+	width: 400px;
+	height:250px;
+	border:2px solid #F0F0F0;
+	margin:10px 0 20px 0;
+	z-index: -1;
+	border-radius: 7px;
+}
+
+
+.feature_title{
+	background-color:#F0F0F0;
+	display:block;
+	width:360px;
+	margin:200px 0 0 0;
+	padding:10px;
+	text-transform:uppercase;
+	
+	
+}
+
