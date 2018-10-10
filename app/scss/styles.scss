@@ -1,0 +1,13 @@
+// Third party libs
+// ----------------
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+
+// Modules
+// -------
+@import 'modules/colors';
+
+
+body {
+	background: $background-color;
+}
